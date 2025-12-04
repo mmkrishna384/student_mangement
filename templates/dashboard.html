@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row">
+  <div class="col-md-4">
+    <div class="card shadow-sm p-3">
+      <h6>Total Students</h6>
+      <h2>{{ total }}</h2>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <div class="card shadow-sm p-3">
+      <h6>Welcome, {{ current_user.name }}</h6>
+      <p>Use the navigation to manage students and view reports.</p>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,4 @@
+body { background: #f7f9fc; color: #222; }
+.navbar-brand { font-weight: 700; }
+.card { border: none; }
+.table-hover tbody tr:hover { background: #f1f6ff; }
